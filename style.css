@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    foss4gnl-2017
+	    foss4g-test
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -625,7 +625,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Bloc image backgrounds */
 
 .bg-Groningen-Sunset-523-287948008302-29{
-	background-image:url('img/Groningen_Sunset_523_%287948008302%29.jpg');
+	background-image:url("img/Groningen_Sunset_523_%287948008302%29.jpg");
 }
 
 
