@@ -1,35 +1,25 @@
-FOSS4GNL
+FOSS4GNL - Home
 
 De eerste FOSS4G in Nederland in Groningen op 28 juni 2017
 
-{{block:main/header}}
 
-<!-- bloc-0 -->
-<div class="bloc bloc-fill-screen bg-Groningen-Sunset-523-287948008302-29 b-parallax bgc-white l-bloc" id="bloc-0">
+<!-- bloc-1 -->
+<div class="bloc bloc-fill-screen bg-Groningen-Sunset-523-287948008302-29 b-parallax bgc-white l-bloc" id="bloc-1">
 	<div class="container fill-bloc-top-edge">
-		<nav class="navbar row mini-nav">
+		<nav class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="<?php echo $path; ?>/home">FOSS4GNL</a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle menu-icon-thin-bars" data-toggle="collapse" data-target=".navbar-1">
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="navbar-collapse navbar-1 nav-special sidebar-nav collapse">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav pull-right">
 					<li>
-						<a href="<?php echo $path; ?>/home">FOSS4GNL</a>
+						<a href="<?php echo $path; ?>/home" class="ltc-1">Home</a>
 					</li>
 					<li>
-						<a href="#locatie" id="pl-undefined">Locatie</a>
-					</li>
-					<li>
-						<a href="#programma" id="pl-undefined">Programma</a>
-					</li>
-					<li>
-						<a href="#tickets" id="pl-undefined">Aanmelden</a>
-					</li>
-					<li>
-						<a href="<?php echo $path; ?>/presentatie-aanmelden">Presentatie-Aanmelden</a>
+						<a href="<?php echo $path; ?>/foss4gnl-programma" class="ltc-1">Programma</a>
 					</li>
 				</ul>
 			</div>
@@ -38,14 +28,18 @@ De eerste FOSS4G in Nederland in Groningen op 28 juni 2017
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					FOSS4GNL
+				<h1 class="text-center hero-bloc-text tc-platinum">
+					FOSS4GNL<br>
 				</h1>
-				<h3 class="text-center mg-lg hero-bloc-text-sub tc-white">
-					Groningen &nbsp;28 juni 2017
+				<h3 class="text-center mg-lg hero-bloc-text-sub tc-platinum">
+					Groningen 28 juni 2017
 				</h3>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-12">
 				<div class="text-center">
-					<a href="https://www.eventbrite.nl/e/tickets-foss4gnl-32571897422?ref=ebtn#tickets" class="btn-wire btn btn-xl wire-btn-white" target="_blank">Aanmelden</a>
+					<a href="https://www.eventbrite.nl/e/tickets-foss4gnl-32571897422?ref=ebtn#tickets" class="btn-wire btn btn-xl wire-btn-platinum" target="_blank">Aanmelden</a>
 				</div>
 			</div>
 		</div>
@@ -58,7 +52,204 @@ De eerste FOSS4G in Nederland in Groningen op 28 juni 2017
 		</div>
 	</div>
 </div>
-<!-- bloc-0 END -->
+<!-- bloc-1 END -->
+
+<!-- programma -->
+<div class="bloc bgc-white l-bloc" id="programma">
+	<div class="container bloc-md b-divider">
+		<div class="row voffset">
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2 class="mg-md text-center">
+							Programma
+						</h2>
+						<h3 class="text-center mg-md">
+							Pre-conference event<br>
+						</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/2925403679.jpeg" height="171" width="253" />
+					</div>
+					<div class="col-sm-6">
+						<p>
+							Op dinsdagavond 27 juni organiseren de Groninger Archieven en FOSS4GNL een Mapathon waarin we samen gaan georefereren. Je kunt ervaringen delen, krijgt tips en trucs van experts en we kunnen ons samen stukbijten op ingewikkelde kaarten. Alle liefhebbers van oude en moderne kaarten kunnen meedoen; beginners en gevorderden. Meer info op de <u><a href="https://www.groningerarchieven.nl/agenda/mapathon-groningen" target="_blank">site van Groninger Archieven</a></u>, aanmelden kan bij je aanmelding voor FOSS4GNL.
+						</p>
+					</div>
+				</div>
+				<h3 class="text-center mg-md">
+					Keynote
+				</h3>
+				<div class="row voffset-md">
+					<div class="col-sm-6">
+						<img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/logo-zeeland-kleur.svg" height="148" width="342" />
+					</div>
+					<div class="col-sm-6">
+						<p class=" text-left">
+							De Provincie Zeeland is op weg van een gesloten systeem naar een open geo-landschap. De weg is niet overal strak geasfalteerd, maar het vergezicht houdt ze op het juiste pad. Beleef hun reis mee tijdens het plenaire programma.
+						</p>
+						<p class=" text-left">
+							Na deze zoektocht volgt de keuzestress: drie parallelsessies vormen de rest van het programma: een QGIS-track, een technische track, en een met specials: alsof niet alle spatial ook special is...
+						</p>
+					</div>
+				</div>
+				<h3 class="text-center mg-md">
+					Parallelle Sessies
+				</h3>
+				<h3 class="text-center mg-md">
+					<a class="ltc-1" href="<?php echo $path; ?>/foss4gnl-programma">Bekijk het <u>uitgebreide programma</u> met tijdsschema</a><br>
+				</h3>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-4">
+				<img src="<?php echo $path; ?>/template/img/QGIS_logo.svg" class="center-block bounce-hvr animated" />
+				<h3 class="text-center mg-md">
+					QGIS track
+				</h3>
+				<p class="text-center">
+					De eerste QGIS gebruikersdag in Nederland
+				</p>
+				<ul>
+					<li>
+						<p>
+							Feature Frenzy: Wat is er nieuw in QGIS
+						</p>
+					</li>
+					<li>
+						<p>
+							BGT &amp; QGIS: hoe QGIS als controletool in te zetten voor een megaklus als de BGT
+						</p>
+					</li>
+					<li>
+						<p>
+							(Open)Data gebruik op een Architectenbureau - Van uren naar minuten: efficiënter en beter werken dankzij QGIS en open data
+						</p>
+					</li>
+					<li>
+						<p>
+							Lightning Talks: Studenten en QGIS
+						</p>
+					</li>
+					<li>
+						<p>
+							Vergeet die 2,5D gebouwen op de grond. Ondergronds modelleren is écht 3D
+						</p>
+					</li>
+					<li>
+						<p>
+							Tips and tricks: maak je gisleven makkelijker met deze QGIS jacks
+						</p>
+					</li>
+					<li>
+						<p>
+							QGIS 3
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<div class="text-center">
+					<span class="et-icon-tools-2 icon-lg bounce-hvr animated"></span>
+				</div>
+				<h3 class="text-center mg-md">
+					Technische track
+				</h3>
+				<p class="text-center">
+					De diepte in met web, desktop en server tools
+				</p>
+				<ul>
+					<li>
+						<p>
+							Peilbuizen uitlezen via Lora
+						</p>
+					</li>
+					<li>
+						<p>
+							Combinatie van gdal_rasterize en numpy voor berekening met monster-gegevens van de afgelopen 14 jaar
+						</p>
+					</li>
+					<li>
+						<p>
+							Verbeter je website met OpenLayers en de Closure Compiler<br>
+						</p>
+					</li>
+					<li>
+						<p>
+							PostGIS bij de Provincie Zeeland<br>
+						</p>
+					</li>
+					<li>
+						<p>
+							Monitoring van geo-webdiensten met GeoHealthCheck<br>
+						</p>
+					</li>
+					<li>
+						<p>
+							Kaarten op zeeland.nl met OpenLayers3&nbsp;<br>
+						</p>
+					</li>
+					<li>
+						<p>
+							Vector tiling BRT-Achtergronddkaart <br>
+						</p>
+					</li>
+					<li>
+						<p>
+							Indoor maps &amp; routing bij de RUG<br>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<div class="text-center">
+					<span class="et-icon-telescope icon-lg bounce-hvr animated"></span>
+				</div>
+				<h3 class="text-center mg-md">
+					Specials track
+				</h3>
+				<p class="text-center">
+					Anything special goes here.
+				</p>
+				<ul>
+					<li>
+						<p>
+							Open Soure en Open Data: Open voor iedereen?<br>
+						</p>
+					</li>
+					<li>
+						<p>
+							Van closed source naar een mix met open source
+						</p>
+					</li>
+					<li>
+						<p>
+							Clusteren van GeoServer
+						</p>
+					</li>
+					<li>
+						<p>
+							PDOK en Open Source
+						</p>
+					</li>
+					<li>
+						<p>
+							Open Source Geo op het MBO onderwijs
+						</p>
+					</li>
+					<li>
+						<p>
+							Aanpak Geodienst RUG: Hoe maak je je hele organisatie enthousiast over (open) geo?
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- programma END -->
 
 <!-- intro -->
 <div class="bloc bgc-white l-bloc" id="intro">
@@ -104,76 +295,12 @@ De eerste FOSS4G in Nederland in Groningen op 28 juni 2017
 </div>
 <!-- intro END -->
 
-<!-- programma -->
-<div class="bloc bgc-white l-bloc" id="programma">
-	<div class="container bloc-md b-divider">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 class="mg-md text-center">
-					Programma
-				</h2>
-			</div>
-		</div>
-		<div class="row voffset">
-			<div class="col-sm-4">
-				<img src="<?php echo $path; ?>/template/img/QGIS_logo.svg" height="60" width="58" class="center-block bounce-hvr animated" />
-				<h3 class="text-center mg-md">
-					QGIS track
-				</h3>
-				<p class="text-center">
-					De eerste QGIS gebruikersdag in Nederland
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="et-icon-tools-2 icon-lg bounce-hvr animated"></span>
-				</div>
-				<h3 class="text-center mg-md">
-					Technische track
-				</h3>
-				<p class="text-center">
-					De diepte in met web, desktop en server tools
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="et-icon-telescope icon-lg bounce-hvr animated"></span>
-				</div>
-				<h3 class="text-center mg-md">
-					Specials track
-				</h3>
-				<p class="text-center">
-					Anything special goes here.
-				</p>
-			</div>
-		</div>
-		<div class="row voffset">
-			<div class="col-sm-12">
-				<h3 class="mg-md">
-					Oproep voor bijdragen
-				</h3>
-			</div>
-		</div>
-		<div class="row voffset">
-			<div class="col-sm-9">
-				<p>
-					Heb jij iets wat we echt niet mogen missen in de Qgis track of een laatste ontwikkeling in de techniek? Of misschien wel iets totaal anders? Laat het ons weten!
-				</p>
-			</div>
-			<div class="col-sm-3">
-				<a href="<?php echo $path; ?>/presentatie-aanmelden" class="btn btn-d btn-lg btn-sq btn-clean">Presentatie aanmelden</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- programma END -->
-
 <!-- locatie -->
 <div class="bloc bgc-white l-bloc" id="locatie">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-6">
-				<a href="https://osm.org/go/0GXNN3~in--?layers=T&amp;m=" target="_blank"><img class="img-responsive center-block" src="<?php echo $path; ?>/template/img/Screen%20Shot%202017-04-18%20at%2020.30.49.png" height="376" width="412" /></a>
+				<a href="https://osm.org/go/0GXNN3_c5--?layers=T&amp;m=" target="_blank"><img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/Screen%20Shot%202017-04-18%20at%2020.30.49.png" height="350" width="384" /></a>
 			</div>
 			<div class="col-sm-6">
 				<h2 class="mg-lg">
@@ -183,7 +310,7 @@ De eerste FOSS4G in Nederland in Groningen op 28 juni 2017
 					Zernike Campus Groningen
 				</h3>
 				<p class="mg-lg">
-					Deze dag vindt plaats in het&nbsp;<a class="ltc-blue-ryb" href="https://www.openstreetmap.org/directions?route=%3B53.23969%2C6.53405" target="_blank"><u>Duisenberggebouw</u></a>&nbsp;van de RUG op de Zernike Campus in Groningen&nbsp;(Nettelbosje 2, 9747 AE, Groningen).<br> <br>De campus is uitstekend te bereiken met het Openbaar Vervoer (<a class="ltc-blue-ryb" href="http://9292.nl/plan/vertrek/2017-04-18T2220?naarRef=groningen_bushalte-nijenborgh" target="_blank"><u>Halte Nijenborgh</u></a>). <br>Vanaf Station Groningen Noord rijden lijn 1 en 171. Vanaf het Hoofdstation lijn 15 en lijn 1. Of pak de (ov)fiets! Vanaf het station is het zo&rsquo;n 20 minuten. <br> <br>Parkeergelegenheid (gratis) is aanwezig op zo&rsquo;n 5-10min lopen (P5 of P6).
+					Deze dag vindt plaats in het&nbsp;<a class="ltc-blue-ryb" href="https://www.openstreetmap.org/directions?route=%3B53.23969%2C6.53405" target="_blank"><u>Duisenberggebouw</u></a>&nbsp;van de RUG op de Zernike Campus in Groningen&nbsp;(Nettelbosje 2, 9747 AE, Groningen).<br> <br>De campus is uitstekend te bereiken met het Openbaar Vervoer (<a class="ltc-blue-ryb" href="http://9292.nl/plan/vertrek/2017-04-18T2220?naarRef=groningen_bushalte-nijenborgh" target="_blank"><u>Halte Nijenborgh</u></a>). <br>Vanaf Station Groningen Noord rijden lijn 1 en 171. Vanaf het Hoofdstation lijn 15 en lijn 1. Of pak de (ov)fiets! Vanaf het station is het zo&rsquo;n 20 minuten. <br> <br>Parkeergelegenheid (gratis) is aanwezig op zo&rsquo;n 10min lopen (<u><a class="ltc-blue-ryb" href="https://www.openstreetmap.org/#map=19/53.24524/6.53386" target="_blank">P5</a>,</u>&nbsp;<a class="ltc-blue-ryb" href="https://www.openstreetmap.org/#map=19/53.24437/6.52860" target="_blank">P6</a>,&nbsp;<a class="ltc-blue-ryb" href="https://www.openstreetmap.org/#map=19/53.23697/6.51885" target="_blank"><u>Transferium Reitdiep</u></a><u>)</u>. De omliggende transferia rondom de stad: P+R Hoogkerk en Haren hebben directe busverbindingen met de campus.
 				</p>
 			</div>
 		</div>
@@ -204,7 +331,7 @@ De eerste FOSS4G in Nederland in Groningen op 28 juni 2017
 		<div class="row">
 			<div class="col-sm-10">
 				<p class="text-left">
-					Deelname aan de conferentie is gratis. Wel wordt er een bijdrage gevraagd voor de catering: voor 15euro p.p. is er koffie, thee, lunch én een borrel. <br>
+					Deelname aan de conferentie is gratis. Wel wordt er een bijdrage gevraagd voor de catering: voor 15euro p.p. is er koffie, thee, lunch én een borrel. Er is ook de mogelijkheid tot een klein/privé sponsorschap in de vorm van een Golden Ticket à 50euro.<br>
 				</p>
 				<p class="text-left">
 					Voor (een beperkt aantal) studenten hebben we een speciaal aanbod. Als student hoef je geen bijdrage te betalen voor de catering als je als vrijwilliger beschikbaar bent op de dag zelf.&nbsp;
@@ -220,30 +347,59 @@ De eerste FOSS4G in Nederland in Groningen op 28 juni 2017
 </div>
 <!-- tickets END -->
 
-<!-- sponsoren -->
-<div class="bloc l-bloc bgc-white" id="sponsoren">
+<!-- bloc-6 -->
+<div class="bloc bgc-white l-bloc" id="bloc-6">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
 				<h2 class="text-center mg-md">
 					Sponsoren
-				</h2><br>
+				</h2>
+				<h3 class="text-center mg-md">
+					Goud
+				</h3><a href="http://www.ordina.nl/geo-ict" target="_blank"><img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/Logo%20Ordina%20GEO-ICT%20%28transparant%29%20-%20groot.png" height="119" width="812" /></a><a href="http://merkator.info" target="_blank"><img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/logo_merkator.png" height="119" width="533" /></a><br><a href="http://rug.nl/geo" target="_blank"><img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/rugr_logonl_rood_rgb.png" height="121" width="517" /></a>
+				<h3 class="text-center mg-md">
+					Zilver
+				</h3>
+				<div class="row voffset-md">
+					<div class="col-sm-4">
+						<a href="http://geo-academie.nl" target="_blank"><img class="img-responsive center-block" src="<?php echo $path; ?>/template/img/geoacademie.jpg" height="87" width="321" /></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="https://www.md-kwadraat.nl" target="_blank"><img class="img-responsive center-block" src="<?php echo $path; ?>/template/img/logo_met_text.svg" /></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="http://geon.nl" target="_blank"><img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/logo%20printer%20Geon.png" height="83" width="261" /></a>
+					</div>
+				</div>
+				<div class="row voffset-md">
+					<div class="col-sm-4">
+						<a href="https://www.thorbecke.nl" target="_blank"><img class="img-responsive center-block" src="<?php echo $path; ?>/template/img/thorbecke-diapositief-payoff-sRGB-480x160.png" height="86" width="258" /></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="http://www.webmapper.nl"><img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/webmapper_logo_tekst.svg" height="87" width="226" /></a>
+					</div>
+					<div class="col-sm-4">
+						<a href="https://justobjects.nl" target="_blank"><img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/jo-logo-big-transparent.png" height="84" width="279" /></a>
+					</div>
+				</div>
+				<div class="row voffset-md voffset">
+					<div class="col-sm-6">
+						<a href="http://opengeogroep.nl" target="_blank"><img class="center-block img-responsive" src="<?php echo $path; ?>/template/img/OGG-logo2012_mettekst.svg" height="230" width="233" /></a>
+					</div>
+					<div class="col-sm-6">
+						<p class="text-center">
+							Er zijn verschillende sponsor packages beschikbaar: meer info via foss4g@osgeo.nl<br>
+						</p>
+					</div>
+				</div>
 			</div>
-			<div class="col-xs-12 col-md-8 col-md-offset-2">
-				<div class="col-sm-3">
-					<img class="img-responsive" src="<?php echo $path; ?>/template/img/rugr_logonl_rood_rgb.png" />
-				</div>
-				<div class="col-sm-3">
-				</div>
-				<div class="col-sm-3">
-				</div>
-				<div class="col-sm-3">
-				</div>
+			<div class="col-xs-12 col-md-8 col-md-offset-2 col-sm-12">
 			</div>
 		</div>
 	</div>
 </div>
-<!-- sponsoren END -->
+<!-- bloc-6 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
