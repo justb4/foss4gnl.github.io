@@ -1,4 +1,8 @@
 -
+  id: 800
+  title: "Keynote"
+  service: true
+-
   id: 801
   title: "Inschrijving"
   service: true
@@ -8,7 +12,7 @@
   service: true
 -
   id: 803
-  title: "Keynote"
+  title: "Koffie"
   service: true
 -
   id: 804
