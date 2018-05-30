@@ -1,0 +1,144 @@
+-
+  id: 2
+  name: "Ton"
+  surname: "Zijlstra"
+  company: ""
+  title: ""
+  bio: "Ton Zijlstra (1970) is veranderkundig adviseur met een voorkeur voor complexe kennis- en verandervraagstukken. Hij heeft een achtergrond in de techniek en wetenschapsfilosofie, en is geboeid door hoe digitalisering ons leren, werken, en leven verandert. Hij werkt aan digitale transformatie, ethiek by design en digitaal handelingsvermogen. Sinds 2008 helpt Ton overheden bij de overgang naar open by design. Hij werkt nationaal en internationaal aan open data, als oprichter en partner van The Green Land in heel Europa, als expert voor de Wereldbank in Centraal en Zuid-Oost Azië en voor de VN in Servië. Hij schrijft sinds 2002 over zijn interesses in zijn blog, en organiseert met zijn vrouw internationale conferenties bij hen thuis als verjaardagsfeestje."
+  thumnailUrl: TonZijlstra.jpg
+  rockstar: true
+- 
+  id: 3
+  name: "Peter"
+  surname: "Vos"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: PeterVos.jpg
+  rockstar: true
+- 
+  id: 4
+  name: "Frank"
+  surname: "Steggink"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: FrankSteggink.jpg
+  rockstar: true
+- 
+  id: 5
+  name: "Just"
+  surname: "van den Broecke"
+  company: "Just Objects"
+  title: "Open Source Geospatial Professional"
+  bio: ""
+  thumbnailUrl: JustvandenBroecke.jpg
+  rockstar: true
+- 
+  id: 6
+  name: "Paul"
+  surname: "Meems"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: PaulMeems.jpg
+  rockstar: true
+- 
+  id: 7
+  name: "Siebe"
+  surname: "Bosch"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: SiebeBosch.jpg
+  rockstar: true
+- 
+  id: 8
+  name: "Jan-Willem"
+  surname: "van Aalst"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: JanWillemvanAalst.jpg
+  rockstar: true
+- 
+  id: 9
+  name: "Monique"
+  surname: "Bennen"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: MoniqueBennen.jpg
+  rockstar: true
+- 
+  id: 10
+  name: "Bart"
+  surname: "Baas"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: BartBaas.jpg
+  rockstar: true
+- 
+  id: 11
+  name: "Peter Paul"
+  surname: "Koonings"  
+  company: ""
+  title: ""
+  bio: ""  
+  thumbnailUrl: PeterPaulKoonings.jpg
+  rockstar: true
+- 
+  id: 12
+  name: "Edward"
+  surname: "Mac Gillavry"
+  company: "Webmapper"
+  title: ""
+  bio: ""
+  thumbnailUrl: EdwardMacGillavry.jpg
+  rockstar: true
+- 
+  id: 13
+  name: "Peter"
+  surname: "Heerink"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: PeterHeerink.jpg
+  rockstar: true
+- 
+  id: 14
+  name: "Jan"
+  surname: "Hartmann"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: JanHartmann.jpg
+  rockstar: true
+- 
+  id: 15
+  name: "Arjen"
+  surname: "Vrielink"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: ArjenVrielink.jpg
+  rockstar: true
+- 
+  id: 16
+  name: "Patrick"
+  surname: "Smit"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: PatrickSmit.jpg
+  rockstar: true
+- 
+  id: 17
+  name: "Ronald"
+  surname: "Mulder"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: RonaldMulder.jpg
+  rockstar: true

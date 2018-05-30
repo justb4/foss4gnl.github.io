@@ -1,0 +1,178 @@
+-
+  id: 801
+  title: "Inschrijving"
+  service: true
+-
+  id: 802
+  title: "Welkom"
+  service: true
+-
+  id: 803
+  title: "Koffie"
+  service: true
+-
+  id: 804
+  title: "Lunch"
+  service: true
+-
+  id: 805
+  title: "Afsluiting"
+  service: true
+-
+  id: 901
+  title: "Blok 1 Sessies"
+  service: true
+-
+  id: 902
+  title: "Blok 2 Sessies"
+  service: true
+-
+  id: 903
+  title: "Blok 3 Sessies"
+  service: true
+-
+  id: 001
+  title: "MapWindow"
+  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
+  subtype: workshop
+  speakers: [3, 6]
+-
+  id: 002
+  title: "AHN2 & BAG"
+  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
+  subtype: "workshop"
+  speakers: [3, 6]
+-
+  id: 003
+  title: "Dataconversies van satelietbeelden en andere sensoren om slimme inzichten te krijgen"
+  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
+  subtype: presentation
+  speakers: [1, 2, 7]
+-
+  id: 004
+  title: "Gebruik open source & closed source software voor data"
+-
+  id: 005
+  title: "MapGallery, de techniek achter woonzorgwijzer.info"
+  subtype: "presentation"
+  speakers: []
+-
+  id: 006
+  title: "Vast wel iets leuks - misschien PAN"
+  subtype: presentation
+  speakers: []
+-
+  id: 007
+  title: "Vastgoedanalyses met de BAG in PostGIS"
+  subtype: presentation
+  speakers: []
+-
+  id: 008
+  title: "Geoblacklight"
+  subtype: presentation
+  speakers: []
+-
+  id: 009
+  title: "OSM stack op kadastrale kaart 1830"
+  subtype: presentation
+  speakers: []
+-
+  id: 010
+  title: "Radar en AIS data met R"
+  subtype: presentation
+  speakers: []
+-
+  id: 011
+  title: "Verstening van tuinen"
+  subtype: presentation
+  speakers: []
+-
+  id: 012
+  title: "OS GIS en ETL"
+  subtype: presentation
+  speakers: []
+-
+  id: 013
+  title: "verschillende frameworks en welke te kiezen (OL2, 3 & 4, Leaflet, ...)"
+  subtype: presentation
+  speakers: []
+-
+  id: 014
+  title: "vermoedelijk over moderne webcartografie"
+  subtype: presentation
+  speakers: []
+-
+  id: 015
+  title: "FRESHEM: Zoet-zoutverdeling Zeeuwse ondergrond"
+  subtype: presentation
+  speakers: []
+-
+  id: 016
+  title: "NLMaps: samenwerken in kaart viewers"
+  subtype: presentation
+  speakers: []
+-
+  id: 017
+  title: "Nieuwe PDOK locatieservice"
+  subtype: presentation
+  speakers: []
+-
+  id: 018
+  title: "Heel NL in 3D"
+  subtype: presentation
+  speakers: []
+-
+  id: 019
+  title: "De kracht van PostGIS 3D analyse"
+  subtype: presentation
+  speakers: []
+-
+  id: 020
+  title: "Met PICO Nederland duurzaam maken"
+  subtype: presentation
+  speakers: []
+-
+  id: 021
+  title: "Wandelen op oude kaarten"
+  subtype: presentation
+  speakers: []
+-
+  id: 022
+  title: "INSPIRE als best practice ipv verplichting"
+  subtype: presentation
+  speakers: []
+-
+  id: 023
+  title: "Using computational graphs for geographical raster data sets"
+  subtype: presentation
+  speakers: []
+-
+  id: 025
+  title: "Stetl: geo-conversie-motor in NLExtract en Smart Emission"
+  subtype: presentation
+  speakers: []
+-
+  id: 026
+  title: "-PyGeoAPI - Towards a Python Web API for Emerging OGC Standards"
+  subtype: presentation
+  speakers: []
+-
+  id: 027
+  title: "Beheren van applicaties ESRI vs OpenSource"
+  subtype: presentation
+  speakers: []
+-
+  id: 028
+  title: "Automatische 3D reconstructie van steden met 3dfier"
+  subtype: presentation
+  speakers: []
+-
+  id: 029
+  title: "Geopapaparazzi, de mobiele GIS app"
+  subtype: presentation
+  speakers: []
+-
+  id: 030
+  title: "Open Source Web GIS in International Context"
+  subtype: presentation
+  speakers: []

@@ -1,0 +1,13 @@
+- 
+  group: "Goud"
+  elements: 
+    - {name: "Merkator", description: "Merkator", link: "https://www.merkator.com", imageUrl: "logo-merkator.png"}
+    - {name: "Geon", description: "Geon", link: "https://www.geon.nl", imageUrl: "logo-geon.png"}
+    - {name: "Open Geo Groep", description: "Open Geo Groep", link: "http://www.opengeogroep.nl/", imageUrl: "logo-opengeogroep.svg"}
+    - {name: "Geo Academie", description: "Geo Academie", link: "https://geo-academie.nl/", imageUrl: "logo-geoacademie.jpg"}
+    - {name: "Just Objects", description: "Just Objects", link: "", imageUrl: "logo-justobjects.png"}
+    - {name: "Webmapper", description: "Webmapper", link: "https://www.webmapper.net", imageUrl: "logo-webmapper.svg"}
+-
+  group: "Zilver"
+  elements: 
+    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}

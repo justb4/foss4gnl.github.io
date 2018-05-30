@@ -1,0 +1,54 @@
+- 
+  date: "2014-10-24"
+  dateReadable: "October 24"
+  tracks: 
+    - {title: "Software", color: "#90be4e"}
+    - {title: "Technisch", color: "#03a9f4"}
+    - {title: "Special", color: "#e91e63"}
+    - {title: "Analyse", color: "#4CB05B"}
+  timeslots:
+    - {
+    	startTime: "9:15",
+    	endTime: "9:45",
+    	sessionIds: [801]
+    }
+    - {
+        startTime: "9:45",
+        endTime: "10:00",
+        sessionIds: [802]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "11:00",
+    	sessionIds: [803]
+    }
+    - {
+    	startTime: "11:30",
+    	endTime: "12:45",
+    	sessionIds: [901]
+    }
+    - {
+    	startTime: "12:45",
+    	endTime: "13:45",
+    	sessionIds: [804]
+    }
+    - {
+    	startTime: "13:45",
+    	endTime: "15:00",
+    	sessionIds: [902]
+    }
+    - {
+    	startTime: "15:00",
+    	endTime: "15:15",
+    	sessionIds: [803]
+    }
+    - {
+    	startTime: "15:15",
+    	endTime: "16:30",
+    	sessionIds: [903]
+    }
+    - {
+    	startTime: "16:30",
+    	endTime: "18:00",
+    	sessionIds: [805]
+    }
