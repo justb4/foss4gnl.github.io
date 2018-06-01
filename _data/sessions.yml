@@ -180,3 +180,43 @@
   title: "Open Source Web GIS in International Context"
   subtype: presentation
   speakers: []
+-
+  id: 200
+  title: "Machine Learning om satellietbeelden te classificeren"
+  subtype: workshop
+  speakers: []
+-
+  id: 201
+  title: "Vector Tiles"
+  subtype: workshop
+  speakers: []
+-
+  id: 202
+  title: "Ruimtelijke analyse? In PostGIS natuurlijk!"
+  subtype: workshop
+  speakers: []
+-
+  id: 203
+  title: "Met QGIS meer uit de BGT halen"
+  subtype: workshop
+  speakers: []
+-
+  id: 204
+  title: "Build you own QGIS plugin"
+  subtype: workshop
+  speakers: []
+-
+  id: 205
+  title: "Modelleren met PostGIS 3D functies"
+  subtype: workshop
+  speakers: []
+-
+  id: 206
+  title: "Selecties en Analyses in QGIS met de DB Manager"
+  subtype: workshop
+  speakers: []
+-
+  id: 207
+  title: "Met GeoNetwork je datastromen organiseren en gebruik effectueren"
+  subtype: workshop
+  speakers: []
