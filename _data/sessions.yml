@@ -1,7 +1,8 @@
 -
   id: 800
   title: "Keynote"
-  service: true
+  subtype: presentation
+  speakers: [2]
 -
   id: 801
   title: "Inschrijving"
