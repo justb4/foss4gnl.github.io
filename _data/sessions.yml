@@ -327,5 +327,21 @@ Na afloop kan je:<br>
 -
   id: 207
   title: "Met GeoNetwork je datastromen organiseren en gebruik effectueren"
+  description: "De laatste jaren zien we naast de landelijke organisaties ook steeds meer gemeenten, provincies,
+waterschappen en bedrijven de stap maken naar het inrichten van een centraal register voor de door de
+organisatie beheerde datasets. GeoNetwork is, door haar dynamische metadata model, een goede
+kandidaat voor het inrichten van een register voor datasets uit verschillende disciplines. Zo kunnen naast
+elkaar geo datasets, AVG verwerkingen, administratieve en statistische datasets volgens de van
+toepassing zijnde standaarden geregistreerd en doorzocht worden.<br><br>
+Deze workshop geeft handvaten om zelf met GeoNetwork aan de slag te gaan in je organisatie en besteed
+aandacht aan de verschillende Nederlandse uitbreidingen die door de Gebruikers Groep Nederland
+ontwikkeld zijn en GeoNetwork toerusten op de typische Nederlandse use cases.<br><br>
+Na afloop:<br>
+• Kun je GeoNetwork installeren en configureren voor gebruik in een Nederlandse context<br>
+• Begrijp je de meerwaarde van het inrichten van een lokaal register.<br>
+• Begrijp je welke rol een lokaal register heeft in het web van de Nederlandse en/of Europese
+Spatial Data Infrastructuur.<br>
+• Ben je in staat geautomatiseerd metadata te generen of te extraheren van bestaande bronnen ten
+behoeve van centrale ontsluiting"
   subtype: workshop
   speakers: [210, 211]
