@@ -13,12 +13,7 @@
     	sessionIds: [801]
     }
     - {
-        startTime: "9:45",
-        endTime: "10:00",
-        sessionIds: [802]
-    }
-    - {
-    	startTime: "10:00",
+    	startTime: "9:45",
     	endTime: "11:00",
     	sessionIds: [800]
     }
