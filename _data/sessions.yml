@@ -14,8 +14,7 @@
   service: true
 -
   id: 803
-  title: "Koffie"
-  location: "op het terras"
+  title: "Koffie op het terras"
   service: true
 -
   id: 804
@@ -27,7 +26,7 @@
   service: true
 -
   id: 901
-  title: "Blok 1 Sessies"
+  title: "Blok 1 Sessies - Exacte planning wordt in de loop van juni bekendgemaakt."
   service: true
 -
   id: 902
