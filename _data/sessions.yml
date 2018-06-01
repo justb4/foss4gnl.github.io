@@ -191,12 +191,12 @@ machine learning technieken (K-means, random forest, gradient boosting) satellie
 We lopen het hele proces van downloaden van satellietbeeld tot en met presentatie als kaart door. Je leert
 waar en hoe je beelden moet downloaden en hoe je vervolgens met behulp van classifier een kaart kunt
 maken van bijvoorbeeld: al het oppervlaktewater, bebouwde gebieden, kale grond of bossen.<br>
-Na afloop kan je:<br>
+<em>Na afloop kan je:</em><br><br>
 • satellietbeelden downloaden van ESA en NASA<br>
 • een geschikt (machine learning) classificatie algorithme kiezen<br>
 • training data maken om een machine learning model te trainen<br>
-• een machine learning model toepassen op een satellietbeeld om een kaart te maken<br>
-Vereisten<br>
+• een machine learning model toepassen op een satellietbeeld om een kaart te maken<br><br>
+<em>Vereisten</em><br><br>
 • Breng je laptop mee<br>
 • Classifier runt in een docker, zorg dat je OS dockers kan draaien (Windows, Linux, Mac)<br>
 • Zorg dat je voldoende ruimte op je harde schijf hebt voor de satellietbeelden en eindproducten"
