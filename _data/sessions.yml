@@ -1,7 +1,9 @@
 -
   id: 800
-  title: "Keynote"
-  service: true
+  title: "Plenair ochtendprogramma"
+  subtype: presentation
+  description: "Het bestuur van OSGeoNL en de organisatie van de FOSS4GNL heten u welkom! Speciale aandacht deze ochtend is er voor open data, en de impact die ze heeft op de samenleving. Ton Zijlstra (TheGreenLand) is uw gids voor dit onderwerp."
+  speakers: [2]
 -
   id: 801
   title: "Inschrijving"
@@ -12,7 +14,7 @@
   service: true
 -
   id: 803
-  title: "Koffie"
+  title: "Koffie op het terras"
   service: true
 -
   id: 804
@@ -24,7 +26,7 @@
   service: true
 -
   id: 901
-  title: "Blok 1 Sessies"
+  title: "Blok 1 Sessies - Exacte planning wordt in de loop van juni bekendgemaakt."
   service: true
 -
   id: 902
@@ -180,3 +182,166 @@
   title: "Open Source Web GIS in International Context"
   subtype: presentation
   speakers: []
+-
+  id: 200
+  title: "Machine Learning om satellietbeelden te classificeren"
+  description: "Je eigen aardobservatiebedrijf beginnen? Concurreren met NASA en ESA? Dat kan. Deze workshop leer
+je werken met de open source classifier van Satelligence. Daarmee kun je met behulp van verschillende
+machine learning technieken (K-means, random forest, gradient boosting) satellietbeelden classificeren.
+We lopen het hele proces van downloaden van satellietbeeld tot en met presentatie als kaart door. Je leert
+waar en hoe je beelden moet downloaden en hoe je vervolgens met behulp van classifier een kaart kunt
+maken van bijvoorbeeld: al het oppervlaktewater, bebouwde gebieden, kale grond of bossen.<br><br>
+<strong>Na afloop kan je:</strong><br>
+• satellietbeelden downloaden van ESA en NASA<br>
+• een geschikt (machine learning) classificatie algorithme kiezen<br>
+• training data maken om een machine learning model te trainen<br>
+• een machine learning model toepassen op een satellietbeeld om een kaart te maken<br><br>
+<strong>Vereisten</strong><br>
+• Breng je laptop mee<br>
+• Classifier runt in een docker, zorg dat je OS dockers kan draaien (Windows, Linux, Mac)<br>
+• Zorg dat je voldoende ruimte op je harde schijf hebt voor de satellietbeelden en eindproducten"
+  subtype: workshop
+  speakers: [200, 201]
+-
+  id: 201
+  title: "Vector Tiles"
+  description: "Vector tile technologie is een nieuw alternatief op de traditionele raster image tiles voor web maps. Zij maken web maps sneller te publiceren en flexibeler vorm te geven.<br><br>
+Hoe werken vector tiles en hoe kom je er aan? In deze workshop maken we zelf een web map op basis van vector tiles. We gebruiken vector tiles van PDOK en OpenMapTiles of maken vector tiles van eigen geo-data (PostGIS/GeoPackage). Er zijn voorbeelden voor beginners en gevorderden.<br><br>
+Voor beginners ligt de focus op de front-end ontwikkeling. We maken een kaart te maken met [Mapbox Studio](https://www.mapbox.com/studio/). Daarna zetten we zelf een eenvoudige web-pagina met een kaart-viewer op te zetten met [MapboxGL.js](https://www.mapbox.com/mapbox-gl-js/api). We gebruiken de [Mapbox Style Specification](https://www.mapbox.com/mapbox-gl-js/style-spec/) om een eigen cartografische vormgeving te specificeren in de vorm van een style.json bestand. De vector tiles komen van [PDOK](https://github.com/PDOK/vectortiles-bgt-brt). Enige voorkennis van HTML, CSS en JavaScript is hierbij handig.<br><br>
+Voor gevorderden zijn er voorbeelden om vanuit PostGIS je eigen data te serveren als vector tiles met [Tegola](https://github.com/go-spatial/tegola) of [T-rex](https://github.com/t-rex-tileserver/t-rex) en om OpenStreetMap data te serveren met [OpenMapTiles Server](https://openmaptiles.com/server/). Als extra kan je de cartografische vormgeving verder uitwerken door zelf iconen (sprites) te maken en eigen lettertypes (glyphs) te gebruiken. Deze voorbeelden gebruiken Docker of NodeJS/NPM om de tools te installeren en draaien.<br><br>
+Kennis nodig:<br>
+• Beginners : HTML, CSS & JS<br>
+• Gevorderden: Docker, NodeJS/NPM, PostGIS<br><br>
+Na afloop kan je:<br>
+• Een vector tile web map vormgeven met Mapbox studio.<br>
+• Een kaart-viewer voor vector tiles opzetten met MapboxGL.js<br>
+• Openbare vector tiles vormgeven en tonen met een style.json bestand volgens de [Mapbox Style Specification](https://www.mapbox.com/mapbox-gl-js/style-spec/).<br>
+• Eigen vector tiles maken en publiceren met Openmaptiles, Tegola of T-rex.<br>
+• Eigen sprites en glyphs ontwikkelen."
+  subtype: workshop
+  speakers: [202]
+-
+  id: 202
+  title: "Ruimtelijke analyse? In PostGIS natuurlijk!"
+  subtype: workshop
+  description: "Voorkennis: <br>
+U kunt queries maken met SQL<br><br>
+Tuurlijk, een desktop GIS-pakket is handig voor het maken van ruimtelijke analyses. Maar wist u dat
+u met PostGIS ook direct in de PostgreSQL database geodata kunt bewerken en analyseren?En dat
+dat voordelen biedt?<br><br>
+In deze workshop geven we u een inkijk in de wereld van PostGIS. Wat is PostGIS eigenlijk? Hoe zit
+geodata in het programma en wat kunnen we daar dan mee? En het belangrijkste: wat zijn dan die
+voordelen?<br><br>
+Dit doen we door een eigen PostGIS database aan te maken en deze te vullen met data uit
+bestanden zoals shapefiles, CSV- en GML-bestanden. En dan begint het spelen, want wie data heeft,
+kan analyses maken! Hoe zorg ik dat alle data in het zelfde coördinaatstelsel staat? Wat is het
+dichtstbijzijnde zwembad? En als het buiten de bebouwde kom moet liggen?<br><br>
+Na afloop:<br>
+• weet u wat PostGIS is<br>
+• kent u de voordelen ten opzichte van desktop GIS<br>
+• kunt u een PostGIS database aanmaken<br>
+• kunt u datasets zoals shapefile, CSV, GML importeren<br>
+• kunt u ruimtelijke analyses maken met SQL"
+  speakers: [203]
+-
+  id: 203
+  title: "Met QGIS meer uit de BGT halen"
+  subtype: workshop
+  description: "In één dagdeel meer kunnen met de BGT en QGIS? Túúrlijk! We kijken even naar de BGT-Webservices
+die worden aangeboden, maar schuiven daarna op naar de GML-downloads. We gaan die netjes inlezen
+(ook de panden) en visualiseren. En dan gaat er een wereld voor je open... we gaan met die grootschalige
+data analyses doen: hoe groen is je buurt eigenlijk? En hoe verhoudt zich dat tot bijvoorbeeld Almere,
+waar we nu zijn?<br><br>
+Ook spannend is te onderzoeken wat je kan met de plaatsbepalingspunten? Hoe goed doen die landmeters
+het nou eigenlijk? En hoe biedt een programma als QGIS daar meerwaarde?<br><br>
+Na afloop kan je:<br>
+• webservices consumeren<br>
+• GML inlezen<br>
+• data opmaken<br>
+• een ruimtelijke analyse uitvoeren<br>
+• plaatsbepalingspunten analyseren en beoordelen"
+  speakers: [204]
+-
+  id: 204
+  title: "Build you own QGIS plugin"
+  subtype: workshop
+  description: "Als je een beetje kunt knutselen in Python (of een andere programmeertaal), dan is het maken van een
+QGIS plugin best makkelijk. In deze workshop ga je dat dan ook doen en ga je gegarandeerd naar huis
+met je eigen plugin.<br><br>
+In deze workshop leer je:<br>
+• een eerste plugin maken die in een keer alle kaartlagen (of een selectie daarvan) van de
+topotijdreis aan je QGIS project toevoegt<br>
+• het ontwikkelgereedschap gebruiken<br>
+• de plugin-builder plugin gebruiken om een QGIS plugin te maken<br>
+• elementen aan de user interface van je plugin toevoegen<br>
+• de juiste documentatie vinden<br><br>
+Let op:<br>
+• Neem een laptop mee waarop de ontwikkelomgeving voor QGIS plugins is geïnstalleerd. Dit gaat
+het gemakkelijkst met de OSGEO4W installer. Je verliest heel veel tijd als de omgeving niet goed
+werkt!<br>
+• Wegens de beschikbaarheid van documentatie en voorbeelden maken we gebruik van QGIS
+2.18.x. QGIS 3 is voor een volgende keer.<br>
+• Je moet al enige ervaring hebben met het knutselen aan scripts in Python. Beheers je een andere
+programmeertaal op redelijk niveau, dan is dat ook goed."
+  speakers: [205, 206]
+-
+  id: 205
+  title: "Modelleren met PostGIS 3D functies"
+  subtype: workshop
+  description: "PostGIS kent zeer uitgebreide ruimtelijke analyse mogelijkheden, meestal gebruik je deze in 2 dimensies
+en toon je de resultaten in je favoriete GIS applicatie of geo-viewer.
+Wist je echter dat je ook ruimtelijke analyse in 3 dimensies kunt uitvoeren met PostGIS? Hiervoor
+gebruik je weliswaar grotendeels dezelfde functie-set maar hoe weet je of een ruimtelijke analyse ook
+het verwachtte resultaat had? Vaak heb je een idee, je test het uit, bekijkt het. Dit is vaak een iteratief
+proces.<br><br>
+Om deze manier van modelleren en proberen te ondersteunen heeft Geon bv de Open Source
+PostGIS3DExplorer (https://github.com/geondev/PostGIS3DExplorer) gebouwd. In onze workshop kun je
+ervaren hoe dit werkt aan de hand van praktische voorbeelden.<br>
+Randvoorwaarden voor deelname:<br>
+Basiskennis van SQL en PostgreSQL / PostGIS<br>
+Eigen laptop met Windows 7 of hoger<br>
+Bestaande installatie van PostgreSQL 9.x en PostGIS 2.2 of hoger"
+  speakers: [207, 208]
+-
+  id: 206
+  title: "Selecties en Analyses in QGIS met de DB Manager"
+  description: "QGIS heeft, zoals dat hoort bij een degelijk GIS pakket, allerlei tools voor het maken van
+selecties en (ruimtelijke) analyses. Toch zijn al die mooie tooltjes voor de analist die regelmatig
+met databases (b.v. PostGIS) werkt vaak een beetje star en omslachtig.<br><br>
+Bij selecties: alleen maar SELECT * FROM één tabel? En waarom niet een overlay analyse en
+daar dan meteen een selectie uit? Waarom zoveel tussenstappen en niet een hele analyse in
+één keer, zoals in een database kan?<br><br>
+Welnu, dat kan dus wél, met de DB Manager plugin!<br><br>
+Hiermee kun je onder andere ruimtelijke of niet-ruimtelijke SQL queries schrijven en direct
+uitvoeren, en de resultaten in QGIS gebruiken. Niet alleen via een database, maar ook gewoon
+met ingeladen shapefiles, GML, gpx, csv’tjes of een combi daarvan. Makkelijk, flexibel en
+efficiënt!<br><br>
+Na afloop kan je:<br>
+• in QGIS geladen kaartlagen oproepen in de DB Manager<br>
+• SQL bevragingen op een attribuuttabel doen<br>
+• gegevens over geometrie opvragen en manipuleren<br>
+• gegevens van totaal verschillende oorsprong combineren in één query<br>
+• de resultaten van een analyse weer exporteren naar een bestand"
+  subtype: workshop
+  speakers: [209]
+-
+  id: 207
+  title: "Met GeoNetwork je datastromen organiseren en gebruik effectueren"
+  description: "De laatste jaren zien we naast de landelijke organisaties ook steeds meer gemeenten, provincies,
+waterschappen en bedrijven de stap maken naar het inrichten van een centraal register voor de door de
+organisatie beheerde datasets. GeoNetwork is, door haar dynamische metadata model, een goede
+kandidaat voor het inrichten van een register voor datasets uit verschillende disciplines. Zo kunnen naast
+elkaar geo datasets, AVG verwerkingen, administratieve en statistische datasets volgens de van
+toepassing zijnde standaarden geregistreerd en doorzocht worden.<br><br>
+Deze workshop geeft handvaten om zelf met GeoNetwork aan de slag te gaan in je organisatie en besteed
+aandacht aan de verschillende Nederlandse uitbreidingen die door de Gebruikers Groep Nederland
+ontwikkeld zijn en GeoNetwork toerusten op de typische Nederlandse use cases.<br><br>
+Na afloop:<br>
+• Kun je GeoNetwork installeren en configureren voor gebruik in een Nederlandse context<br>
+• Begrijp je de meerwaarde van het inrichten van een lokaal register.<br>
+• Begrijp je welke rol een lokaal register heeft in het web van de Nederlandse en/of Europese
+Spatial Data Infrastructuur.<br>
+• Ben je in staat geautomatiseerd metadata te generen of te extraheren van bestaande bronnen ten
+behoeve van centrale ontsluiting"
+  subtype: workshop
+  speakers: [210, 211]
