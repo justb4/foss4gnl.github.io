@@ -1,23 +1,21 @@
 - 
-  date: "2014-10-24"
-  dateReadable: "October 24"
+  date: "2018-07-10"
+  dateReadable: "10 Juli"
   tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
-    - {title: "Community", color: "#e91e63"}
+    - {title: "Workshops", color: "#4CB05B"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [800]
+    	startTime: "09:00",
+    	endTime: "12:00",
+    	sessionIds: [200, 201, 202, 203]
     }
     - {
-        startTime: "11:00",
-        endTime: "11:45",
-        sessionIds: [801]
+        startTime: "12:00",
+        endTime: "13:00",
+        sessionIds: [804]
     }
     - {
-    	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: [802]
+    	startTime: "13:00",
+    	endTime: "16:00",
+    	sessionIds: [204, 205, 206, 207]
     }
