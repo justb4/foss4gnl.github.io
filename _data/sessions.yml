@@ -217,18 +217,49 @@ Na afloop kan je:<br>
 • Een kaart-viewer voor vector tiles opzetten met MapboxGL.js<br>
 • Openbare vector tiles vormgeven en tonen met een style.json bestand volgens de [Mapbox Style Specification](https://www.mapbox.com/mapbox-gl-js/style-spec/).<br>
 • Eigen vector tiles maken en publiceren met Openmaptiles, Tegola of T-rex.<br>
-• Eigen sprites en glyphs ontwikkelen.<br>"
+• Eigen sprites en glyphs ontwikkelen."
   subtype: workshop
   speakers: [202]
 -
   id: 202
   title: "Ruimtelijke analyse? In PostGIS natuurlijk!"
   subtype: workshop
+  description: "Voorkennis: <br>
+U kunt queries maken met SQL<br><br>
+Tuurlijk, een desktop GIS-pakket is handig voor het maken van ruimtelijke analyses. Maar wist u dat
+u met PostGIS ook direct in de PostgreSQL database geodata kunt bewerken en analyseren?En dat
+dat voordelen biedt?<br><br>
+In deze workshop geven we u een inkijk in de wereld van PostGIS. Wat is PostGIS eigenlijk? Hoe zit
+geodata in het programma en wat kunnen we daar dan mee? En het belangrijkste: wat zijn dan die
+voordelen?<br><br>
+Dit doen we door een eigen PostGIS database aan te maken en deze te vullen met data uit
+bestanden zoals shapefiles, CSV- en GML-bestanden. En dan begint het spelen, want wie data heeft,
+kan analyses maken! Hoe zorg ik dat alle data in het zelfde coördinaatstelsel staat? Wat is het
+dichtstbijzijnde zwembad? En als het buiten de bebouwde kom moet liggen?<br><br>
+Na afloop:<br>
+• weet u wat PostGIS is<br>
+• kent u de voordelen ten opzichte van desktop GIS<br>
+• kunt u een PostGIS database aanmaken<br>
+• kunt u datasets zoals shapefile, CSV, GML importeren<br>
+• kunt u ruimtelijke analyses maken met SQL"
   speakers: [203]
 -
   id: 203
   title: "Met QGIS meer uit de BGT halen"
   subtype: workshop
+  description: "In één dagdeel meer kunnen met de BGT en QGIS? Túúrlijk! We kijken even naar de BGT-Webservices
+die worden aangeboden, maar schuiven daarna op naar de GML-downloads. We gaan die netjes inlezen
+(ook de panden) en visualiseren. En dan gaat er een wereld voor je open... we gaan met die grootschalige
+data analyses doen: hoe groen is je buurt eigenlijk? En hoe verhoudt zich dat tot bijvoorbeeld Almere,
+waar we nu zijn?<br><br>
+Ook spannend is te onderzoeken wat je kan met de plaatsbepalingspunten? Hoe goed doen die landmeters
+het nou eigenlijk? En hoe biedt een programma als QGIS daar meerwaarde?<br><br>
+Na afloop kan je:<br>
+• webservices consumeren<br>
+• GML inlezen<br>
+• data opmaken<br>
+• een ruimtelijke analyse uitvoeren<br>
+• plaatsbepalingspunten analyseren en beoordelen"
   speakers: [204]
 -
   id: 204
