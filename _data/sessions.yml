@@ -2,6 +2,7 @@
   id: 800
   title: "Plenair ochtendprogramma"
   subtype: presentation
+  description: "Het bestuur van OSGeoNL en de organisatie van de FOSS4GNL heten u welkom! Speciale aandacht deze ochtend is er voor open data, en de impact die ze heeft op de samenleving. Ton Zijlstra (TheGreenLand) is uw gids voor dit onderwerp."
   speakers: [2]
 -
   id: 801
