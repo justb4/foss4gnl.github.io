@@ -305,6 +305,23 @@ Bestaande installatie van PostgreSQL 9.x en PostGIS 2.2 of hoger"
 -
   id: 206
   title: "Selecties en Analyses in QGIS met de DB Manager"
+  description: "QGIS heeft, zoals dat hoort bij een degelijk GIS pakket, allerlei tools voor het maken van
+selecties en (ruimtelijke) analyses. Toch zijn al die mooie tooltjes voor de analist die regelmatig
+met databases (b.v. PostGIS) werkt vaak een beetje star en omslachtig.<br><br>
+Bij selecties: alleen maar SELECT * FROM één tabel? En waarom niet een overlay analyse en
+daar dan meteen een selectie uit? Waarom zoveel tussenstappen en niet een hele analyse in
+één keer, zoals in een database kan?<br><br>
+Welnu, dat kan dus wél, met de DB Manager plugin!<br><br>
+Hiermee kun je onder andere ruimtelijke of niet-ruimtelijke SQL queries schrijven en direct
+uitvoeren, en de resultaten in QGIS gebruiken. Niet alleen via een database, maar ook gewoon
+met ingeladen shapefiles, GML, gpx, csv’tjes of een combi daarvan. Makkelijk, flexibel en
+efficiënt!<br><br>
+Na afloop kan je:<br>
+• in QGIS geladen kaartlagen oproepen in de DB Manager<br>
+• SQL bevragingen op een attribuuttabel doen<br>
+• gegevens over geometrie opvragen en manipuleren<br>
+• gegevens van totaal verschillende oorsprong combineren in één query<br>
+• de resultaten van een analyse weer exporteren naar een bestand"
   subtype: workshop
   speakers: [209]
 -
