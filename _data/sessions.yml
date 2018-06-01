@@ -265,6 +265,24 @@ Na afloop kan je:<br>
   id: 204
   title: "Build you own QGIS plugin"
   subtype: workshop
+  description: "Als je een beetje kunt knutselen in Python (of een andere programmeertaal), dan is het maken van een
+QGIS plugin best makkelijk. In deze workshop ga je dat dan ook doen en ga je gegarandeerd naar huis
+met je eigen plugin.<br><br>
+In deze workshop leer je:<br>
+• een eerste plugin maken die in een keer alle kaartlagen (of een selectie daarvan) van de
+topotijdreis aan je QGIS project toevoegt<br>
+• het ontwikkelgereedschap gebruiken<br>
+• de plugin-builder plugin gebruiken om een QGIS plugin te maken<br>
+• elementen aan de user interface van je plugin toevoegen<br>
+• de juiste documentatie vinden<br><br>
+Let op:<br>
+• Neem een laptop mee waarop de ontwikkelomgeving voor QGIS plugins is geïnstalleerd. Dit gaat
+het gemakkelijkst met de OSGEO4W installer. Je verliest heel veel tijd als de omgeving niet goed
+werkt!<br>
+• Wegens de beschikbaarheid van documentatie en voorbeelden maken we gebruik van QGIS
+2.18.x. QGIS 3 is voor een volgende keer.<br>
+• Je moet al enige ervaring hebben met het knutselen aan scripts in Python. Beheers je een andere
+programmeertaal op redelijk niveau, dan is dat ook goed."
   speakers: [205, 206]
 -
   id: 205
