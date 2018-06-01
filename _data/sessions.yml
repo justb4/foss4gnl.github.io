@@ -288,6 +288,19 @@ programmeertaal op redelijk niveau, dan is dat ook goed."
   id: 205
   title: "Modelleren met PostGIS 3D functies"
   subtype: workshop
+  description: "PostGIS kent zeer uitgebreide ruimtelijke analyse mogelijkheden, meestal gebruik je deze in 2 dimensies
+en toon je de resultaten in je favoriete GIS applicatie of geo-viewer.
+Wist je echter dat je ook ruimtelijke analyse in 3 dimensies kunt uitvoeren met PostGIS? Hiervoor
+gebruik je weliswaar grotendeels dezelfde functie-set maar hoe weet je of een ruimtelijke analyse ook
+het verwachtte resultaat had? Vaak heb je een idee, je test het uit, bekijkt het. Dit is vaak een iteratief
+proces.<br><br>
+Om deze manier van modelleren en proberen te ondersteunen heeft Geon bv de Open Source
+PostGIS3DExplorer (https://github.com/geondev/PostGIS3DExplorer) gebouwd. In onze workshop kun je
+ervaren hoe dit werkt aan de hand van praktische voorbeelden.<br>
+Randvoorwaarden voor deelname:<br>
+Basiskennis van SQL en PostgreSQL / PostGIS<br>
+Eigen laptop met Windows 7 of hoger<br>
+Bestaande installatie van PostgreSQL 9.x en PostGIS 2.2 of hoger"
   speakers: [207, 208]
 -
   id: 206
