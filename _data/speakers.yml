@@ -165,9 +165,9 @@
   name: "Niene"
   surname: "Boeijen"
   company: "Webmapper"
-  title: ""
-  bio: ""
-  thumbnailUrl: 
+  title: "Web Cartographer"
+  bio: "Na haar Msc studie Geo-informatie wetenschappen aan de WUR is Niene zich gaan ontwikkelen als een full stack web map developer. Zij ontwikkelt en ontwerpt diverse kaarten van Nederland; van geo-data processing, back-end en applicaties tot en met de visualisatie.  Naast haar technische en creatieve expertise, organiseert zij al twee jaar met veel enthousiasme Maptime bijeenkomsten en draagt daarmee bij aan verspreiding van kennis binnen de geo-community. Niene is altijd op zoek naar interessante ontwikkelingen in de geo wereld, om deze te delen of zelf in te zetten!"
+  thumbnailUrl: NieneBoeijen.png
   rockstar: true
 - 
   id: 203
